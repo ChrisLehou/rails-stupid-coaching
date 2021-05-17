@@ -1,4 +1,9 @@
-<p><%=@answer%></p>
-<%= link_to "Your Coach", answer_path %>
+<h1>Stupid Coaching</h1>
+<div id=you>
 <p><%=params[:question]%></p>
 <%= link_to "you", ask_path %>
+</div>
+<div id=coach>
+<p><%=@answer%></p>
+<%= link_to "Your Coach", answer_path %>
+</div>
